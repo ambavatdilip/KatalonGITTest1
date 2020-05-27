@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrangeHRLiveDemo_Suite" time="34.938" tests="1" failures="0" errors="0">
+   <testsuite name="OrangeHRLiveDemo_Suite" tests="1" failures="0" errors="0" time="34.938" timestamp="2020-05-27 18:36:30" hostname="Softtech - Softtech-PC" id="Test Suites/OrangeHRLiveDemo_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Katalon_Studio_Engine_Windows_64-7.4.0\\KatalonGITTest2\\KatalonGITTest1\\KatalonGITTest2\\Reports\\20200527_183608\\OrangeHRLiveDemo_Suite\\20200527_183608"/>
+         <property name="logFiles" value="E:\\Katalon_Studio_Engine_Windows_64-7.4.0\\KatalonGITTest2\\KatalonGITTest1\\KatalonGITTest2\\Reports\\20200527_183608\\OrangeHRLiveDemo_Suite\\20200527_183608\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Softtech - Softtech-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.4.6.1"/>
+         <property name="browser" value="Chrome 81.0.4044.92"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="942e248e75d481c7aa96b50fc7968336"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=******, proxyServerAddress=, proxyServerPort=0, exceptionList=}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/OrangeHRMSLogin_TC" time="32.648" classname="Test Cases/OrangeHRMSLogin_TC" status="PASSED">
+         <system-out><![CDATA[2020-05-27 18:36:32 - [TEST_CASE][PASSED] - Test Cases/OrangeHRMSLogin_TC: Test Cases/OrangeHRMSLogin_TC
+
+2020-05-27 18:36:33 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2020-05-27 18:36:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-27 18:36:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-27 18:36:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2020-05-27 18:36:50 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRLogin_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "Admin"): Text 'Admin' is set on object 'Object Repository/OrangeHRLogin_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-05-27 18:36:53 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRLogin_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-05-27 18:36:53 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRLogin_OR/Page_OrangeHRM/input_Username_txtPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/OrangeHRLogin_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-05-27 18:36:54 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OrangeHRLogin_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-05-27 18:36:54 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRLogin_OR/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/OrangeHRLogin_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-05-27 18:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRLogin_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-05-27 18:37:01 - [TEST_STEP][PASSED] - verifyTextPresent("Welcome Admin", false): Text 'Welcome Admin' is present on page 
+
+2020-05-27 18:37:02 - [MESSAGE][PASSED] - Text 'Welcome Admin' is present on page 
+
+2020-05-27 18:37:02 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRLogin_OR/Page_OrangeHRM/span_Timesheets")): Object: 'Object Repository/OrangeHRLogin_OR/Page_OrangeHRM/span_Timesheets' is clicked on
+
+2020-05-27 18:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRLogin_OR/Page_OrangeHRM/span_Timesheets' is clicked on
+
+2020-05-27 18:37:03 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRLogin_OR/Page_OrangeHRM/input__btnView")): Object: 'Object Repository/OrangeHRLogin_OR/Page_OrangeHRM/input__btnView' is clicked on
+
+2020-05-27 18:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRLogin_OR/Page_OrangeHRM/input__btnView' is clicked on
+
+2020-05-27 18:37:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OrangeHRLogin_OR/Page_OrangeHRM/span_Required"), 0): Object 'Object Repository/OrangeHRLogin_OR/Page_OrangeHRM/span_Required' is present
+
+2020-05-27 18:37:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-27 18:37:04 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRLogin_OR/Page_OrangeHRM/span_Required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-27 18:36:30 - [TEST_SUITE][PASSED] - OrangeHRLiveDemo_Suite: Test Cases/OrangeHRMSLogin_TC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
